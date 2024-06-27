@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    line-height: 2;
+    width: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*SOCIAL NAVIGATION BAR*/
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.socialNav a{
+    color: #fff;
+}
+
+.socialNav{
+    background-color: #B4B8A0;
+}
+
+.socialNav ul{
+    display: flex;
+    padding-left: 40px;
+    height: 40px;
+}
+
+.socialNav ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/*TITLE SECTION*/
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    min-height: 4rem;
+    align-items: center;
+}
+
+.title{
+    padding-left: 40px;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.pageNav ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+.pageNav ul li{
+    margin-left: 30px;
+}
+
+.pageNav a{
+    color: black;
+    transition: background-color 0.5s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pageNav a:hover{
+    background-color: #EAEBED;
+    border-radius: 5px;
+}
+
+/*BODY SECTION*/
+
+.heroContainer{
+    background-image: url(images/sparoller.jpg);
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+
+.heroTitle{
+    font-weight: 300;
+    font-size: 4rem;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.heroSpan{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 50%;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    line-height: 1;
+    position: relative;
+    background-color: #DDBEA9;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: background-color 0.5s ease;
+    top: 10px;
+}
+
+.heroSpan a{
+    color: black;
+}
+
+.heroSpan:hover{
+    background-color: #B98B74;
+    transition: background-color 0.5s ease;
+}
+
+.heroText{
+    width: 40%;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+/*ABOUT SECTION*/
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3C7B1;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.aboutContent{
+    background-color: #fff;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -50px;
+    max-height: 600px;
+}
+
+.aboutTitle{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.aboutText{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+/*INFO SECTIONS*/
+
+.infoContainer{
+    display: flex;
+}
+
+.infoContainer img{
+    object-fit: cover;
+    width: 40%;
+}
+
+.info{
+    margin: 20px auto;
+}
