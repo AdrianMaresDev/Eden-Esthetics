@@ -148,6 +148,9 @@ ul{
     border-radius: 10px;
     margin-top: -50px;
     max-height: 600px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .aboutTitle{
@@ -159,6 +162,34 @@ ul{
     width: 50%;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+/*ABOUT CARDS*/
+
+.aboutCards{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card{
+    background-color: #EAEBED;
+    border-radius: 5px;
+    padding: 10px 20px;
+    max-height: 600px;
+}
+
+.card p:not(.cardTitle){
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cardTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.cardTitle i{
+    margin-right: 10px;
 }
 
 /*INFO SECTIONS*/
