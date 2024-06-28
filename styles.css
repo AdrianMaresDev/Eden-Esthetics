@@ -159,7 +159,7 @@ ul{
 }
 
 .aboutText{
-    width: 50%;
+    max-width: 70%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -214,15 +214,15 @@ ul{
     font-weight: bold;
 }
 
-.offerContent{
-    display: flex;
-    padding-bottom: 20px;
-}
-
-.offerContent ul li{
+.info ul{
     font-style: italic;
+    padding-bottom: 10px;
 }
 
-.offerContent span{
-    margin-right: 50px;
+.info span{
+    font-weight: bold;
+}
+
+.info p:not(.infoTitle){
+    font-family: 'Open Sans', sans-serif;
 }
