@@ -143,14 +143,14 @@ ul{
 
 .aboutContent{
     background-color: #fff;
-    width: 80%;
+    max-width: 80%;
     text-align: center;
     border-radius: 10px;
     margin-top: -50px;
-    max-height: 600px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    overflow: hidden;
 }
 
 .aboutTitle{
@@ -196,6 +196,7 @@ ul{
 
 .infoContainer{
     display: flex;
+    background-color: #EEECE8;
 }
 
 .infoContainer img{
@@ -204,5 +205,24 @@ ul{
 }
 
 .info{
-    margin: 20px auto;
+    margin: 20px 40px;
+
+}
+
+.infoTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.offerContent{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.offerContent ul li{
+    font-style: italic;
+}
+
+.offerContent span{
+    margin-right: 50px;
 }
