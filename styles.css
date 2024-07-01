@@ -197,6 +197,7 @@ ul{
 .infoContainer{
     display: flex;
     background-color: #EEECE8;
+    justify-content: space-between;
 }
 
 .infoContainer img{
@@ -225,4 +226,15 @@ ul{
 
 .info p:not(.infoTitle){
     font-family: 'Open Sans', sans-serif;
+}
+
+/*SECOND SECTION*/
+
+.infoTwo{
+    background: #E5E2DB;
+}
+
+.facial{
+    padding-bottom: 10px;
+    font-size: 0.9rem;
 }
