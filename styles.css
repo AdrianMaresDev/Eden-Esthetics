@@ -10,6 +10,7 @@ body{
     width: 100%;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 /*SOCIAL NAVIGATION BAR*/
@@ -97,16 +98,13 @@ ul{
 .heroTitle{
     font-weight: 300;
     font-size: 4rem;
-    position: relative;
     margin-bottom: 5px;
 }
 
 .heroSpan{
     font-family: 'Open Sans', sans-serif;
-    max-width: 50%;
     font-size: 1.2rem;
     padding: 5px 10px;
-    line-height: 1;
     position: relative;
     background-color: #DDBEA9;
     border-radius: 5px;
@@ -138,7 +136,6 @@ ul{
     align-items: center;
     background-color: #D3C7B1;
     padding-bottom: 30px;
-    position: relative;
 }
 
 .aboutContent{
@@ -150,7 +147,6 @@ ul{
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    overflow: hidden;
 }
 
 .aboutTitle{
