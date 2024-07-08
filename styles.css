@@ -10,7 +10,6 @@ body{
     width: 100%;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
 }
 
 /*SOCIAL NAVIGATION BAR*/
@@ -147,6 +146,7 @@ ul{
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
 }
 
 .aboutTitle{
@@ -207,17 +207,13 @@ ul{
 }
 
 .infoTitle{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.7rem;
 }
 
 .info ul{
     font-style: italic;
     padding-bottom: 10px;
-}
-
-.info span{
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .info p:not(.infoTitle){
@@ -230,7 +226,21 @@ ul{
     background: #E5E2DB;
 }
 
+.sectionAccent{
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.boldAccent{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
 .facial{
     padding-bottom: 10px;
-    font-size: 0.9rem;
+}
+
+.sectionAccent a{
+    color: black;
+    text-decoration: underline;
 }
