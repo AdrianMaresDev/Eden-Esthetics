@@ -124,6 +124,7 @@ ul{
     width: 40%;
     margin-left: 5px;
     padding-bottom: 10px;
+    font-size: 1.1rem;
 }
 
 /*ABOUT SECTION*/
@@ -227,19 +228,19 @@ ul{
 
 .info span{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    background-color: #C3D1B0;
-    border-radius: 5px;
-    transition: background-color 0.5s ease;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: 1px;
 }
 
 .info a{
     color: #000;
+    transition: color 0.5s ease;
 }
 
-.info span:hover{
-    background-color: #B4B8A0;
+.info a:hover{
+    color: #95978A;
 }
 
 /*SECOND SECTION*/
@@ -254,3 +255,10 @@ ul{
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*THIRD SECTION*/
+
+.infoThree{
+    background-color: #E2D9C8;
+}
+
