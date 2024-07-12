@@ -204,12 +204,13 @@ ul{
 .infoTitle{
     font-size: 1.7rem;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .info{
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .info ul{
@@ -220,7 +221,7 @@ ul{
 
 .info p:not(.infoTitle){
     max-width: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: 1.05rem;
 }
 
@@ -245,23 +246,11 @@ ul{
 
 .infoTwo{
     background: #E5E2DB;
-}
-
-.sectionAccent{
-    font-style: italic;
-    padding-bottom: 20px;
-}
-
-.boldAccent{
-    font-weight: bold;
-    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .facial{
-    padding-bottom: 10px;
-}
-
-.sectionAccent a{
-    color: black;
-    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
