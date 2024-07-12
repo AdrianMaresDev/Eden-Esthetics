@@ -246,7 +246,7 @@ ul{
 /*SECOND SECTION*/
 
 .infoTwo{
-    background: #E5E2DB;
+    background-color: #E5E2DB;
     display: flex;
     justify-content: space-between;
 }
@@ -262,3 +262,10 @@ ul{
     background-color: #E2D9C8;
 }
 
+/*FOURTH SECTION*/
+
+.infoFour{
+    background-color: #E5E2DB;
+    display: flex;
+    justify-content: space-between;
+}
