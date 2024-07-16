@@ -70,7 +70,7 @@ ul{
 
 .pageNav a{
     color: black;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.3s ease;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -108,7 +108,7 @@ ul{
     background-color: #DDBEA9;
     border-radius: 5px;
     margin-left: 5px;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.3s ease;
     top: 10px;
 }
 
@@ -204,7 +204,6 @@ ul{
 
 .infoTitle{
     font-size: 1.7rem;
-    font-weight: bold;
     padding-bottom: 2px;
 }
 
@@ -236,7 +235,7 @@ ul{
 
 .info a{
     color: #000;
-    transition: color 0.5s ease;
+    transition: color 0.3s ease;
 }
 
 .info a:hover{
@@ -268,4 +267,30 @@ ul{
     background-color: #E5E2DB;
     display: flex;
     justify-content: space-between;
+}
+
+/*BOOK*/
+
+.book{
+    display: flex;
+    background-color: #fff;
+    padding: 50px;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.bookText{
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.number{
+    padding-top: 30px;
+    margin-left: -150px;
+}
+
+.contact{
+    margin-left: -150px;
+    padding-top: 10px;
 }
