@@ -272,25 +272,43 @@ ul{
 /*BOOK*/
 
 .book{
-    display: flex;
-    background-color: #fff;
-    padding: 50px;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
+    background-color: #EEECE8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
-.bookText{
-    font-size: 1rem;
-    padding-top: 15px;
+.bookTitle{
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+}
+
+.book p{
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.form{
     padding-bottom: 15px;
 }
 
-.number{
-    padding-top: 30px;
-    margin-left: -150px;
+.form label{
+    padding-left: 20px;
 }
 
-.contact{
-    margin-left: -150px;
-    padding-top: 10px;
+.message{
+    font-size: 1.2rem;
+}
+
+.submit{
+    font-size: 1rem;
+    background-color: #DDBEA9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover{
+    background-color: #B98B74;
 }

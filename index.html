@@ -95,7 +95,7 @@
         <div class="info">
             <p class="infoTitle">Hair Removal</p>
             <p class="facial">For the full body and eyebrows.</p>
-            <p>We offer safe and comfortable full body hair removal services using a sugar waxing technique that pulls hair from the root, ensuring smooth skin lasts longer between treatments.</p>
+            <p>We offer safe and comfortable full body hair removal services using a sugar waxing technique that pulls hair from the root, ensuring smooth skin that lasts longer between treatments.</p>
             <p>Eyebrow shaping can also be daunting to do on your own. We offer plucking and waxing performed by professionals who will work with you to enhance the natural curve of your brows.</p>
             <span><a href="#">View Hair Removal</a></span>
         </div>
@@ -111,14 +111,29 @@
         <img src="images/spasoap.jpg" alt="">
     </section>
     <section class="book">
-        <div>
-            <h4>Book with Us</h4>
-            <p class="bookText">Ready to make an appointment?<br>Use the button above or give us a call to get started.</p>
-        </div>
-        <div>
-            <p class="number">#123-456-7890</p>
-            <p class="contact">Contact</p>
-        </div>
+        <h4 class="bookTitle">Book with Us</h4>
+        <p>Ready to make an appointment?<br>Use the form below to tell us what you're looking for and we'll contact you with our recommended treatments.</p>
+        <form action="" method="post">
+            <div class="form">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="treatment">Desired Treatment</label>
+                <select id="treatment" name="treatment">
+                    <option>Massage Therapy</option>
+                    <option>Facial Treatment</option>
+                    <option>Hair Removal</option>
+                    <option>Eyebrow Shaping</option>
+                    <option>Aromatherapy</option>
+                    <option>Unsure - Give me recommendations!</option>
+                </select><br>
+            </div>
+            <label class="message" for="message">Message</label><br>
+            <textarea id="message" name="message" rows="6" cols="60" placeholder="What are you looking for?"></textarea><br>
+            <input class="submit" type="submit" value="Submit">
+        </form>
     </section>
+    <footer></footer>
     </body>
     </html>
