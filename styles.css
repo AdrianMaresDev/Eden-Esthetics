@@ -276,11 +276,14 @@ ul{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .bookTitle{
     font-size: 1.7rem;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-weight: normal;
 }
 
 .book p{
@@ -311,4 +314,27 @@ ul{
 
 .submit:hover{
     background-color: #B98B74;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    padding: 10px;
+    background-color: #B4B8A0;
+}
+
+footer span{
+    padding-right: 20px;
+}
+
+footer a{
+    padding-right: 15px;
+    color: #000;
+}
+
+footer i{
+    font-size: 1.2rem;
 }
