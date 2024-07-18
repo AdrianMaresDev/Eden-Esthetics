@@ -59,6 +59,12 @@ ul{
     white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.2rem;
+    }
+}
+
 .pageNav ul{
     display: flex;
     padding-right: 40px;
@@ -100,6 +106,20 @@ ul{
     margin-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2.6rem;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .heroTitle {
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+}
+
 .heroSpan{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
@@ -112,6 +132,12 @@ ul{
     top: 10px;
 }
 
+@media (max-width: 768px) {
+    .heroSpan {
+        font-size: 1.1rem;
+    }
+}
+
 .heroSpan a{
     color: black;
 }
@@ -121,10 +147,22 @@ ul{
 }
 
 .heroText{
-    width: 40%;
+    width: 45%;
     margin-left: 5px;
     padding-bottom: 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .heroText {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .heroText {
+        width: 70%;
+    }
 }
 
 /*ABOUT SECTION*/
@@ -188,6 +226,12 @@ ul{
     margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+    .aboutCards {
+        flex-wrap: wrap;
+    }
+}
+
 /*INFO SECTIONS*/
 
 .infoContainer{
@@ -200,7 +244,15 @@ ul{
     width: 40%;
 }
 
-
+@media (max-width: 768px) {
+    .infoContainer {
+        flex-wrap: wrap;
+    }
+    .infoContainer img {
+        width: 100%;
+        order: -1;
+    }
+}
 
 .infoTitle{
     font-size: 1.7rem;
@@ -314,6 +366,13 @@ ul{
 
 .submit:hover{
     background-color: #B98B74;
+}
+
+@media (max-width: 1024px) {
+    .form label {
+        display: block;
+        padding-left: 0;
+    }
 }
 
 /*FOOTER*/
