@@ -65,6 +65,54 @@ ul{
     }
 }
 
+.pageNav {
+    display: none;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-right: 40px;
+}
+
+.close {
+    display: none;
+    font-size: 1rem;
+    padding-top: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-left: 130px;
+}
+
+.navActive {
+    display: block;
+}
+
+.navActive ul {
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .pageNav {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .pageNav ul {
+        display: row;
+    }
+
+    .close {
+        display: none;
+    }
+}
+
 .pageNav ul{
     display: flex;
     padding-right: 40px;
@@ -179,7 +227,7 @@ ul{
     padding-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .aboutContainer {
         padding-top: 90px;
     }
@@ -252,6 +300,7 @@ ul{
 .infoContainer img{
     object-fit: cover;
     width: 40%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
