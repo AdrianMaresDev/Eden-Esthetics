@@ -93,6 +93,7 @@ ul{
 
 .navActive ul {
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 @media (min-width: 1024px) {

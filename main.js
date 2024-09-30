@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
         navigation.classList.toggle('navActive');
         close.style.display = 'none';
         hamburger.style.display = 'block';
-    })
+    });
 });
