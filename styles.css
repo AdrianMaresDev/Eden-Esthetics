@@ -111,6 +111,10 @@ ul{
         font-size: 2.6rem;
         padding-bottom: 10px;
     }
+
+    .heroContainer {
+        height: 60vh;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -173,6 +177,12 @@ ul{
     align-items: center;
     background-color: #D3C7B1;
     padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        padding-top: 90px;
+    }
 }
 
 .aboutContent{
@@ -374,7 +384,6 @@ ul{
         padding-left: 0;
     }
 }
-
 /*FOOTER*/
 
 footer{
