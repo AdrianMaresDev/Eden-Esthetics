@@ -56,7 +56,6 @@ ul{
     padding-left: 40px;
     letter-spacing: .5rem;
     font-size: 1.5rem;
-    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
